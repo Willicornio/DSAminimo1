@@ -8,10 +8,8 @@
       <change afterPath="$PROJECT_DIR$/../prueba minimo1/.idea/libraries/Maven__junit_junit_4_9.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../prueba minimo1/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../prueba minimo1/prueba minimo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eetac/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eetac/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eetac/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eetac/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MusicaImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MusicaImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eetac/Musica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,15 +45,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/services/MusicaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="147" column="10" lean-forward="true" selection-start-line="147" selection-start-column="10" selection-end-line="147" selection-end-column="10" />
+            <state relative-caret-position="222">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1657#1672#0" expanded="true" />
-                <element signature="e#4251#4265#0" expanded="true" />
+                <element signature="e#1686#1701#0" expanded="true" />
+                <element signature="e#4231#4245#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,16 +82,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eetac/MusicaImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="172" column="35" lean-forward="true" selection-start-line="172" selection-start-column="35" selection-end-line="172" selection-end-column="35" />
+            <state relative-caret-position="364">
+              <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2704#2714#0" expanded="true" />
                 <element signature="e#3710#3718#0" expanded="true" />
                 <element signature="e#3777#3787#0" expanded="true" />
-                <element signature="e#4682#4683#0" expanded="true" />
-                <element signature="e#4725#4726#0" expanded="true" />
-                <element signature="e#4905#4906#0" expanded="true" />
+                <element signature="e#4777#4778#0" expanded="true" />
+                <element signature="e#4820#4821#0" expanded="true" />
+                <element signature="e#5050#5051#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MusicaImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+            <state relative-caret-position="344">
+              <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
@@ -176,11 +174,11 @@
         <option value="$PROJECT_DIR$/src/main/java/eetac/Titulo.java" />
         <option value="$PROJECT_DIR$/src/main/java/eetac/Usuario.java" />
         <option value="$PROJECT_DIR$/src/main/java/eetac/PlayListNotFound.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MusicaImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/eetac/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eetac/MusicaImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/eetac/Musica.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/MusicaService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MusicaImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eetac/MusicaImpl.java" />
       </list>
     </option>
   </component>
@@ -265,7 +263,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555090828679" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555091494131" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pruebaminimo3" />
   </component>
   <component name="RunDashboard">
@@ -280,32 +278,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MusicaImplTest.testdameListaDeUnaPlayListUsuario">
-    <configuration name="MusicaImplTest.testAddPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MusicaImplTest.testPlayNotFound">
+    <configuration name="MusicaImplTest.testArtistaNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Minimo1DSA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MusicaImplTest" />
-      <option name="METHOD_NAME" value="testAddPlay" />
+      <option name="METHOD_NAME" value="testArtistaNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicaImplTest.testAddTitulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MusicaImplTest.testPlayNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Minimo1DSA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MusicaImplTest" />
-      <option name="METHOD_NAME" value="testAddTitulo" />
+      <option name="METHOD_NAME" value="testPlayNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicaImplTest.testAddTituloUsuarioPlaylist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MusicaImplTest.testUsuarioNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Minimo1DSA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MusicaImplTest" />
-      <option name="METHOD_NAME" value="testAddTituloUsuarioPlaylist" />
+      <option name="METHOD_NAME" value="testUsuarioNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -333,11 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MusicaImplTest.testPlayNotFound" />
+        <item itemvalue="JUnit.MusicaImplTest.testArtistaNotFound" />
+        <item itemvalue="JUnit.MusicaImplTest.testUsuarioNotFound" />
         <item itemvalue="JUnit.MusicaImplTest.testdameListaDeUnaPlayListUsuario" />
         <item itemvalue="JUnit.MusicaImplTest.testdameArtistasEnLaPlataforma" />
-        <item itemvalue="JUnit.MusicaImplTest.testAddTituloUsuarioPlaylist" />
-        <item itemvalue="JUnit.MusicaImplTest.testAddPlay" />
-        <item itemvalue="JUnit.MusicaImplTest.testAddTitulo" />
       </list>
     </recent_temporary>
   </component>
@@ -355,12 +353,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MusicaImplTest_testAddTitulo - 2019.04.12 at 18h 06m 16s.xml">
-      <configuration name="MusicaImplTest.testAddTitulo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MusicaImplTest_testAddPlay - 2019.04.12 at 18h 37m 01s.xml">
-      <configuration name="MusicaImplTest.testAddPlay" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MusicaImplTest_testAddPlay - 2019.04.12 at 18h 37m 33s.xml">
       <configuration name="MusicaImplTest.testAddPlay" configurationId="JUnit" />
     </history-entry>
@@ -385,6 +377,12 @@
     <history-entry file="MusicaImplTest_testdameListaDeUnaPlayListUsuario - 2019.04.12 at 19h 09m 33s.xml">
       <configuration name="MusicaImplTest.testdameListaDeUnaPlayListUsuario" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MusicaImplTest_testUsuarioNotFound - 2019.04.12 at 19h 45m 38s.xml">
+      <configuration name="MusicaImplTest.testUsuarioNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MusicaImplTest_testArtistaNotFound - 2019.04.12 at 19h 47m 25s.xml">
+      <configuration name="MusicaImplTest.testArtistaNotFound" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -397,15 +395,15 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" weight="0.32808024" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3243626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3323782" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -540,18 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MusicaImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eetac/PlayListNotFound.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -566,10 +552,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/MusicaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1686#1701#0" expanded="true" />
+            <element signature="e#4231#4245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eetac/Musica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -578,28 +576,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eetac/MusicaImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="172" column="35" lean-forward="true" selection-start-line="172" selection-start-column="35" selection-end-line="172" selection-end-column="35" />
+        <state relative-caret-position="364">
+          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2704#2714#0" expanded="true" />
             <element signature="e#3710#3718#0" expanded="true" />
             <element signature="e#3777#3787#0" expanded="true" />
-            <element signature="e#4682#4683#0" expanded="true" />
-            <element signature="e#4725#4726#0" expanded="true" />
-            <element signature="e#4905#4906#0" expanded="true" />
+            <element signature="e#4777#4778#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#5050#5051#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/MusicaService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MusicaImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="147" column="10" lean-forward="true" selection-start-line="147" selection-start-column="10" selection-end-line="147" selection-end-column="10" />
+        <state relative-caret-position="344">
+          <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1657#1672#0" expanded="true" />
-            <element signature="e#4251#4265#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
           </folding>
         </state>
       </provider>

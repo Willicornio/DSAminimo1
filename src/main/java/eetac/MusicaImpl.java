@@ -60,22 +60,29 @@ public class MusicaImpl implements Musica {
         log.info("Añadiendo titulo");
         Artista artista;
         int i;
+        boolean artistaencontrado = false;
 
-        for (i=0; i < this.artistas.size(); i++)
+
+        for (i=0; i < this.artistas.size(); i++){
             if (Artista.equals(this.artistas.get(i).getNombre())) {
 
                 artista = this.artistas.get(i);
                 Titulo titulo = new Titulo(idTitulo, Nombre, Artista, Album, Duracion);
                 artista.addTitulo(titulo);
                 titulos.add(titulo);
-                log.info("Añadido titulo" + Nombre);
+                artistaencontrado = true;
 
             }
-                else {
-                    log.error("Artista no existe");
-                    throw new ArtistaNotFound();
 
                 }
+
+        if (artistaencontrado = true){
+            log.info("Añadido titulo" + Nombre);
+        }
+        if (artistaencontrado = false) {
+            log.error("No existe el artista");
+            throw new ArtistaNotFound();
+        }
 
 
             }

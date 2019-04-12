@@ -3,6 +3,7 @@ import org.junit.Before;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.nio.file.attribute.UserPrincipalNotFoundException;
 import java.rmi.server.ExportException;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -115,5 +116,26 @@ public class MusicaImplTest {
 
 
 }
+
+@Test(expected = UsuarioNotFound.class)
+    public void testUsuarioNotFound () throws UsuarioNotFound{
+        this.ms.crearPlaylistUsuario("manolo", "lopoka3");
+
+
+}
+
+    @Test(expected = PlayListNotFound.class)
+    public void    testPlayNotFound () throws PlayListNotFound, ArtistaNotFound, UsuarioNotFound{
+
+        Titulo t = new Titulo("titulo2", "titulo2", "Lepoka", "album", 50);
+
+        this.ms.addUsuario("15", "Willi");
+        this.ms.addArtista("Lepoka");
+        this.ms.addTitulo("titulo1", "Suma", "Lepoka", "bi" , 50);
+        this.ms.crearPlaylistUsuario("15" ,"play1");
+        this.ms.añadirTituloPlayUsuario("15", "play2", t);
+
+
+    }
 
 }
