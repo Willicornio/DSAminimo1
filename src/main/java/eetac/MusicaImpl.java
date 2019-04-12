@@ -145,29 +145,37 @@ public class MusicaImpl implements Musica {
 
 
 
-    public LinkedList<Titulo> dameListaDeUnaPlayListUsuario (String idUser, String idPlay) throws UsuarioNotFound {
+    public LinkedList<Titulo> dameListaDeUnaPlayListUsuario (String idUser, String idPlay) throws UsuarioNotFound, PlayListNotFound {
         log.info("Titulos de una plalist de un usuario");
         Usuario u;
         u = usuarios.get(idUser);
         LinkedList<Titulo> listaTitulo = new LinkedList<Titulo>();
         LinkedList<PlayList> lista = new LinkedList<PlayList>();
+        boolean ExistePlay =false ;
 
         if (u != null) {
 
             lista = u.getPlayLists();
             int i = 0;
             PlayList p;
-            p = u.getPlayLists().get(i);
             for (i = 0; i < lista.size(); i++) {
+                p = u.getPlayLists().get(i);
                 if (idPlay.equals(p.getIdPlaylist())){
 
                listaTitulo = p.getListaTitulos();
+               ExistePlay = true;
 
                 }
 
             }
+            if (ExistePlay = true) {
 
-            return listaTitulo;
+                return listaTitulo;
+            }
+            else {
+                log.error("Playlist no encontrada");
+                throw new PlayListNotFound();
+            }
             }
         else {
             log.error("Usuario no encontrado");
